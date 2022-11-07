@@ -1,0 +1,138 @@
+<!-- TODO: 
+    * Header skalering
+    * Cookies
+    * Meny items
+--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style/text.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/homepage.css">
+    <link rel="stylesheet" href="style/homepage-menu.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <title>Sett UB</title>
+</head>
+<body>
+    <!---->
+    <!--HEADER-->
+    <div class="header">
+        <img class="header-tab" id="expand-header" src="./images/extend.png" onclick="expand_header()"></img>
+        <img class="header-tab" id="retract-header" src="./images/return.png" onclick="retract_header()" style="visibility: hidden;"></img>
+        <div class="header-links">
+            <a href="./om-oss.html">Om oss</a>
+            <a href="./om-oss.html">Facebook</a>
+            <a href="https://www.instagram.com/sett.ub/">Instagram</a>
+        </div>
+    </div>
+    <!---->
+
+    <!---->
+    <!--BANNER-->
+    <div class="banner text-center text-align-center">
+        <h1>Sett UB</h1>
+        <h3>Løft blikket, du er sett</h3>
+    </div>
+    <center>
+    <div class="banner-bottom">
+        <h4>I samarbeid med</h4>
+        <img src="images/fontenehuset.png">
+    </div>
+    </center>
+    <!---->
+
+    <!---->
+    <!--CONTENT-->
+    <div class="content">
+        <!---->
+        <!---->
+        <!--INTRO SLIDER-->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide text-align-center">
+                <h2>
+                    Vårt mål
+                </h2>
+                <h6>
+                    SETT UB sitt overordnede mål er å bidra til å redusere ensomhet.
+                </h6>
+            </div>
+
+            <div class="swiper-slide text-align-center">
+                <h2>
+                    Vårt produkt
+                </h2>
+                <h6>
+                    Sett UB designer et kort laget av bærekraftige materialer som kan brukes til julehilsner,
+                    bursdager eller som en koselig og overraskende hilsen til en som blir glad for å bli SETT i en hektisk og kanskje ensom hverdag.
+                </h6>
+            </div>
+
+            <div class="swiper-slide text-align-center">
+                <h2>
+                    Har du spørsmål?
+                </h2>
+                <h6>
+                    Send en mail til testmail@mail.no
+                </h6>
+            </div>
+            ...
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <!---->
+        <!--IMAGES-->
+        <div class="menu experience-preview">
+            <img class="experience-image" src="images/exp1.jpeg"  title="Title">
+            <img class="experience-image" src="images/exp2.jpg"  title="Title">
+            <img class="experience-image" src="images/image5.jpeg"  title="Title">
+            <img class="experience-image" src="images/image6.jpeg" title="Title">
+        </div>
+        <!---->
+    </div>
+    <!---->
+
+    <!---->
+    <!--FOOTER-->
+
+    <div class="footer">
+        <hr>
+        <div class="footer-content">
+            <h6>
+                Fornavn Etternavn <br>
+                Kontakt:&emsp;testmail@mail.no  <br>
+                &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;+47 000 00 000
+            </h6>
+        </div>
+    </div>
+
+    
+    <a class="order-btn" href="checkout.html" style="visibility: hidden;">
+        <div class="order-counter">0</div>
+    </a>
+
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/swipe-slider.js"></script>
+    <script src="scripts/menu-data.js"></script>
+    <script src="scripts/menu-load.js"></script>
+
+</body>
+</html>
