@@ -20,8 +20,7 @@ color: var(--text-black);
 text-decoration: none;
 }
 
-p{
-}
+p{}
 
 h6{
     font-size: 0.8em;
@@ -30,20 +29,27 @@ h6{
     margin-block-end: 0.5em;
 }
 h5{
-font-size: 0.8em;
-font-weight: normal;
-margin-block-start: 0.5em;
-margin-block-end: 0.5em;
+
+font-size: 0.8em;
+
+font-weight: normal;
+
+margin-block-start: 0.5em;
+
+margin-block-end: 0.5em;
 }
 h4{
-    font-weight: normal;
+    
 }
 h3{
-font-weight: normal;
+
+font-weight: normal;
 }
 h2{
     
 font-size: 1.6em;
+    
+margin-bottom: 0;
 }
 h1{
     margin: 0;
@@ -60,25 +66,30 @@ h1{
     width: 100%;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 .text-center{height: 100%;display: flex;align-items: center;flex-direction: column;}
 
 @media only screen and (min-width: 450px) {
+    .item-ingredients{
+        margin-left: 15px;
+    }
     h6{
-        font-size: 1.1em;
-    
+        font-size: 0.9em;
         font-weight: normal;
-        
         margin-block-start: 0.5em;
-        
         margin-block-end: 0.5em;
     }
     h5{
-    font-size: 1em;
-    font-weight: normal;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
+    
+font-size: 1em;
+    
+font-weight: normal;
+    
+margin-block-start: 0.5em;
+    
+margin-block-end: 0.5em;
     }
     h4{
         
@@ -90,7 +101,8 @@ h1{
         margin: 15px;
     }
     h2{
-        font-size: 2.2em;
+        
+font-size: 2.2em;
     }
     h1{
         margin: 0;
@@ -100,19 +112,20 @@ h1{
 
 @media only screen and (min-width: 800px) {
     h6{
-        font-size: 1.1em;
-    
+        font-size: 0.9em;
         font-weight: normal;
-        
         margin-block-start: 0.5em;
-        
         margin-block-end: 0.5em;
     }
     h5{
-    font-size: 1.1em;
-    font-weight: normal;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
+    
+font-size: 1.1em;
+    
+font-weight: normal;
+    
+margin-block-start: 0.5em;
+    
+margin-block-end: 0.5em;
     }
     h4{
         
@@ -124,7 +137,8 @@ h1{
         margin: 15px;
     }
     h2{
-        font-size: 2.4em;
+        
+font-size: 2.4em;
     }
     h1{
         margin: 0;
@@ -135,23 +149,20 @@ h1{
 
 @media only screen and (min-width: 1200px) {
     h6{
-        font-size: 1.1em;
-    
+        font-size: 1.05em;
         font-weight: normal;
-        
         margin-block-start: 0.5em;
-        
         margin-block-end: 0.5em;
     }
     h5{
     
-    font-size: 1.3em;
+font-size: 1.17em;
     
-    font-weight: normal;
+font-weight: normal;
     
-    margin-block-start: 0.5em;
+margin-block-start: 0.5em;
     
-    margin-block-end: 0.5em;
+margin-block-end: 0.5em;
     }
     h4{
         font-size: 1.3em;
@@ -166,7 +177,8 @@ h1{
         margin: 15px;
     }
     h2{
-        font-size: 2.6em;
+        
+font-size: 2.6em;
     }
     h1{
         margin: 0;

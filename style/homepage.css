@@ -4,6 +4,27 @@
     background-size: cover;
     background-position: center;
     height: 60vh;
+    position: relative;
+    color: var(--text-white);
+}
+
+.banner-images{
+height: 100%;
+width: 100%;
+max-width: 1500px;
+position: absolute;
+z-index: -1;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.banner-img{
+    width: 23%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    border: solid 1px black;
 }
 
 .content{
@@ -26,10 +47,14 @@
 }
 
 .swiper{
-width: 100%;
-min-height: 300px;
-max-height: 80vh;
-margin-top: 50px;
+
+width: 100%;
+
+min-height: 300px;
+
+max-height: 80vh;
+
+margin-top: 50px;
 }
 
 .swiper-slide{
@@ -38,10 +63,7 @@
     justify-content: center;
 }
 
-.swiper-slide > h6{
-    width: calc(100% - var(--swiper-navigation-size)/ 11 * 27);
-    margin-left: calc(var(--swiper-navigation-size)/ 22 * 27);
-}
+.swiper-slide > h6{width: 80%;}
 .experience-preview{
     overflow: hidden;
     width: 100% !important;
@@ -129,7 +151,8 @@ font-weight: bolder;
 
 @media only screen and (min-width: 800px) {
     .swiper{
-        width: 50%;
+        width: 45%;
+        max-width: 600px;
     }
     .swiper-slide{
         justify-content: center;
